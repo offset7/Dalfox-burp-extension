@@ -1,6 +1,6 @@
 
 
-\## Dalfox Burp Extension
+## Dalfox Burp Extension
 
 
 
@@ -16,35 +16,35 @@ This tool allows you to pipe Burp traffic or exported HTTP requests directly int
 
 
 
-\## 🚀 Features
+## 🚀 Features
 
 
 
-\- \*\*Standalone Integration\*\*  
+- \*\*Standalone Integration\*\*  
 
 &nbsp; No custom Burp plugins required—run it alongside Burp Suite.
 
 
 
-\- \*\*Simple Setup\*\*  
+- \*\*Simple Setup\*\*  
 
 &nbsp; Point the tool to Dalfox and Burp output, and start scanning.
 
 
 
-\- \*\*Supports Burp History / Exports\*\*  
+- \*\*Supports Burp History / Exports\*\*  
 
 &nbsp; Works with saved HTTP requests, proxy logs, and defined scopes.
 
 
 
-\- \*\*Clean Output\*\*  
+- \*\*Clean Output\*\*  
 
 &nbsp; JSON and plain-text output options for easy parsing or reporting.
 
 
 
-\- \*\*Script-Friendly\*\*  
+- \*\*Script-Friendly\*\*  
 
 &nbsp; Integrates smoothly with CI/CD, automation scripts, and custom toolchains.
 
@@ -54,17 +54,17 @@ This tool allows you to pipe Burp traffic or exported HTTP requests directly int
 
 
 
-\## 📌 Use Cases
+## 📌 Use Cases
 
 
 
-\- Automatically sending Burp-captured requests to Dalfox for XSS scanning.
+- Automatically sending Burp-captured requests to Dalfox for XSS scanning.
 
-\- Re-scanning specific endpoints manually selected from Burp Suite.
+- Re-scanning specific endpoints manually selected from Burp Suite.
 
-\- Integrating Dalfox into manual pentesting workflows without changing Burp configuration.
+- Integrating Dalfox into manual pentesting workflows without changing Burp configuration.
 
-\- Lightweight alternative to traditional Burp extensions.
+- Lightweight alternative to traditional Burp extensions.
 
 
 
@@ -74,27 +74,16 @@ This tool allows you to pipe Burp traffic or exported HTTP requests directly int
 
 
 
-\## ⚠️ Required Dependency: Dalfox
-
-
+## ⚠️ Required Dependency: Dalfox
 
 `dalfox-burp-standalone` does \*\*not\*\* bundle the Dalfox scanner itself.
 
-
-
 You \*\*must download the Dalfox binary manually\*\* from the official Dalfox release page:
-
-
-
 👉 \*\*https://github.com/hahwul/dalfox/releases/
 
 
 
 After downloading:
-
-
-
-\- Place the Dalfox binary in your `$PATH`, \*\*or\*\*
-
-\- Provide its path when running this tool:
+- Place the Dalfox binary in your `$PATH`, \*\*or\*\*
+- Provide its path when running this tool.
 
