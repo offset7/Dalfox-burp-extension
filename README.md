@@ -86,7 +86,7 @@ You \*\*must download the Dalfox binary manually\*\* from the official Dalfox re
 
 
 
-👉 \*\*https://github.com/hahwul/dalfox/releases/\*\*
+👉 \*\*https://github.com/hahwul/dalfox/releases/
 
 
 
